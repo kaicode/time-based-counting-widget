@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+
+		<div class="counting-widget"></div>
+
+		<!-- JavaScript at the bottom so page loads faster -->
+		<script src="js/time-based-counting-widget.js"></script>
+		<script>
+			new TimeBasedCountingWidget({
+				targetClassName: 'counting-widget',
+				prefix: '<span class="sign">&pound;</span>',
+				postfix: '.<span>0</span><span>0</span>',
+				startDate: 'now',
+				countTimeUnit: 'second',
+				countMultiplier: 5,
+				updateIntervalSeconds: 2
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+.counting-widget {
+    font-size: 3em;
+}
+.counting-widget span {
+    border: 1px solid grey;
+    padding: 0.03em 0.15em;
+    border-radius: 5px;
+    width: 0.6em;
+    display: inline-block;
+    text-align: center;
+}
+.counting-widget span.sign {
+    border: 0;
+}
