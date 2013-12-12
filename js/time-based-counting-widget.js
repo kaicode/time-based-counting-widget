@@ -4,10 +4,10 @@ function TimeBasedCountingWidget(configIn) {
 		targetClassName: 'counting-widget',
 		prefix: '',
 		postfix: '',
-		startDate: '2000-01-01T00:00:00',
+		startDate: 'now',
 		countTimeUnit: 'second',
 		countMultiplier: 1,
-		updateIntervalSeconds: 2,
+		updateIntervalSeconds: 1,
 		spanWrap: true
 	};
 
